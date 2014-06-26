@@ -9,12 +9,12 @@ OAuth.registerService('linkedin', 2, null, function(query) {
   var urlParts = urlUtil.parse(profileUrl, true);
 
   var serviceData = {
-    id: urlParts.query.id || Random.id(),
+    id: urlParts.query.id,
     accessToken: accessToken,
     expiresAt: (+new Date) + (1000 * response.expiresIn)
   };
 
-  var whiteListed = ['firstName', 'headline', 'lastName'];
+  var whiteListed = ['id', 'firstName', 'headline', 'lastName'];
 
   // include all fields from linkedin
   // https://developer.linkedin.com/documents/authentication
