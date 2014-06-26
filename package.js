@@ -16,6 +16,7 @@ Package.on_use(function(api) {
     'client');
 
   api.add_files('linkedin_common.js', ['client', 'server']);
-  api.add_files('linkedin_server.js', 'server');
+  api.add_files('linkedin_oauth.js', 'server');
+  api.add_files('linkedin_api.js', 'server');
   api.add_files('linkedin_client.js', 'client');
 });
