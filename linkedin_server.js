@@ -29,6 +29,9 @@ OAuth.registerService('linkedin', 2, null, function(query) {
 
   fields = getExtraData(accessToken, extraFields, fields);
 
+  // rename id key to apiId before it gets override by coming extend
+  fields.apidId = fields.id;
+  
   _.extend(serviceData, fields);
 
   fields.name = identity.firstName + ' ' + identity.lastName;
