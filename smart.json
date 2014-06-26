@@ -1,8 +1,8 @@
 {
   "name": "linkedin",
   "description": "LinkedIn connect flow",
-  "homepage": "https://github.com/yefim/meteor-linkedin",
+  "homepage": "https://github.com/fpoirier1/meteor-linkedin",
   "author": "Geoffrey Vedernikoff (http://twitter.com/yefim)",
   "version": "0.0.3",
-  "git": "https://github.com/yefim/meteor-linkedin.git"
+  "git": "https://github.com/fpoirier1/meteor-linkedin.git"
 }
