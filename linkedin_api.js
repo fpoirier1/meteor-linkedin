@@ -4,7 +4,7 @@ var apiUrl = "https://api.linkedin.com/v1";
 
 // Essential fields
 var fields = [
-  'firstName', 'lastName', 'emailAddress', 'pictureUrl', 
+  'firstName', 'lastName', 'emailAddress', 'pictureUrl;secure=true', 
   'headline', 'location', 'industry', 'id', 'siteStandardProfileRequest'
 ];
 
